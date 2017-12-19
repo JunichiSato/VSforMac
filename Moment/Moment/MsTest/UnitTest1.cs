@@ -12,7 +12,7 @@ namespace Moment
             calculator.addElement(1.0);
             calculator.addElement(2.0);
 
-            Assert.AreEqual(-0.5, calculator.firstMomentAbout(2.0), 0.01);
+            Assert.AreEqual(-0.5, calculator.firstMomentAbout(2.0), TOLERANCE);
         }
     }
 }
